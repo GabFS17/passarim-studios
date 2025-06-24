@@ -99,12 +99,12 @@ footer {
     color: black;
 }
 
-#imagemGehenna {
+.poster {
     height: 400px;
     margin: 20px;
 }
 
-#textoGehenna {
+.descrJogo {
     margin: 20px;
 }
 
@@ -113,24 +113,10 @@ footer {
     flex-direction: column;
 }
 
-.gehenna {
+.jogo {
     display: flex;
     flex-direction: row;
     border-bottom: 2px solid gray;
-}
-
-#imagemKuth {
-    height: 400px;
-    margin: 20px;
-}
-
-#textoKuth {
-    margin: 20px;
-}
-
-.kuth {
-    display: flex;
-    flex-direction: row;
 }
 
 .footerText {
