@@ -50,9 +50,8 @@ footer {
     align-items: center;
     
 }
-
+/* HEADER */
 .logoFrame {
-   
     width: 20vw;
     display: flex;
     align-items: center;
@@ -83,15 +82,15 @@ footer {
 #logo {
     height: 20vh;
     border-radius: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#logo:hover {
+    filter: invert(1);
 }
 
 .logo.selecionada {
     box-shadow: 0px 0px 15px white;
-}
-
-#descricao {
-    margin-top: 20px;
-    padding: 20px;
 }
 
 .botao.selecionado {
@@ -99,6 +98,13 @@ footer {
     color: black;
 }
 
+/* INDEX */
+#descricao {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* JOGOS */
 .poster {
     height: 400px;
     margin: 20px;
@@ -119,13 +125,7 @@ footer {
     border-bottom: 2px solid gray;
 }
 
-.footerText {
-    padding: 20px;
-}
-
-#xlogo {
-    width: 20px;
-}
+/* PRODUTOS */
 
 #imagemFunko {
     height: 350px;
@@ -147,4 +147,21 @@ footer {
     border: none;
     background-color: white;
     border-radius: 4px;
+}
+
+/* NOVIDADES */
+
+.news {
+    margin: 20px;
+    padding-top: 30px;
+}
+
+/* FOOTER */
+
+.footerText {
+    padding: 20px;
+}
+
+#xlogo {
+    width: 20px;
 }
